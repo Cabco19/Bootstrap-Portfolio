@@ -1,0 +1,17 @@
+body {
+    background-image: url("../images/brushed.png");
+}
+.collapse.navbar-collapse {
+    right: 200px;
+    position: absolute;
+}
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-brand {
+    background-color: #4aaaa5;
+}
+.btn {
+    background-color: #4aaaa5;
+}
