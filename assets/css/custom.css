@@ -1,10 +1,7 @@
 body {
     background-image: url("../images/brushed.png");
 }
-.collapse.navbar-collapse {
-    right: 200px;
-    position: absolute;
-}
+
 h2 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -14,4 +11,32 @@ h2 {
 }
 .btn {
     background-color: #4aaaa5;
+}
+.port-text {
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: -70px; /* Adjust this value to move the positioned div up and down */
+    background: #4aaaa5;
+    color: #fff;
+    width: 220px; /* Set the width of the positioned div */
+   
+    padding: 12px 0 12px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    color: #dddddd;
+    font-size: 9px;
+    text-align: center;
+    padding-top: 30px;
+    clear: both;
 }
